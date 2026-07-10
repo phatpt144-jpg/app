@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  // Đổi "cyberfin" thành đúng tên repo GitHub của bạn.
-  // Nếu deploy lên Vercel/Netlify (không phải GitHub Pages), xoá dòng base này đi.
-  base: "/cyberfin/",
+  // Base path khớp với tên repo GitHub thật: phatpt144-jpg/app
+  // Nếu sau này đổi tên repo, hoặc deploy lên Vercel/Netlify, sửa/xoá dòng base này.
+  base: "/app/",
 });
