@@ -207,7 +207,7 @@ function BottomSheet({ open, onClose, title, children, accent = C.cyan }) {
             <X size={17} />
           </button>
         </div>
-        <div style={{ padding: 20, overflowY: "auto" }}>{children}</div>
+        <div style={{ padding: 20, overflowY: "auto", flex: 1, minHeight: 0 }}>{children}</div>
       </div>
     </div>
   );
